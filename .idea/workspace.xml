@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b75f118e-b2d5-49b3-8c79-e988a0bc0607" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Qwr2BDNIRMmSBYYfw06GcUK7nR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.login.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/reggie-takeout/src/main/resources/backend/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/reggie-takeout/src/main/resources/backend/page/login/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b75f118e-b2d5-49b3-8c79-e988a0bc0607" name="Default Changelist" comment="" />
+      <created>1686275274244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686275274244</updated>
+      <workItem from="1686275278011" duration="241000" />
+      <workItem from="1686399044486" duration="612000" />
+      <workItem from="1686411504796" duration="6000" />
+      <workItem from="1686671354275" duration="1629000" />
+      <workItem from="1686788590289" duration="4784000" />
+      <workItem from="1686816531587" duration="772000" />
+      <workItem from="1686836073945" duration="1350000" />
+      <workItem from="1686838061651" duration="930000" />
+      <workItem from="1686839081277" duration="90000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="704" y="352" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1686788680393">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="704" y="352" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1707.920@0.0.1707.920" timestamp="1686788680393" />
+    <state x="633" y="218" key="FileChooserDialogImpl" timestamp="1686836102461">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="633" y="218" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1686836102461" />
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1686837997850">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1686837997850" />
+    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1686837997850">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1686837997850" />
+    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1686837997850">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1686837997850" />
+    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1686837997850">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1686837997850" />
+    <state width="1663" height="300" key="GridCell.Tab.1.bottom" timestamp="1686837997847">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.1.bottom/0.0.1707.920@0.0.1707.920" timestamp="1686837997847" />
+    <state width="1663" height="300" key="GridCell.Tab.1.center" timestamp="1686837997846">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.1.center/0.0.1707.920@0.0.1707.920" timestamp="1686837997846" />
+    <state width="1663" height="300" key="GridCell.Tab.1.left" timestamp="1686837997846">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.1.left/0.0.1707.920@0.0.1707.920" timestamp="1686837997846" />
+    <state width="1663" height="300" key="GridCell.Tab.1.right" timestamp="1686837997847">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1686837997847" />
+    <state width="1663" height="300" key="GridCell.Tab.2.bottom" timestamp="1686837997847">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.2.bottom/0.0.1707.920@0.0.1707.920" timestamp="1686837997847" />
+    <state width="1663" height="300" key="GridCell.Tab.2.center" timestamp="1686837997847">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.2.center/0.0.1707.920@0.0.1707.920" timestamp="1686837997847" />
+    <state width="1663" height="300" key="GridCell.Tab.2.left" timestamp="1686837997847">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.2.left/0.0.1707.920@0.0.1707.920" timestamp="1686837997847" />
+    <state width="1663" height="300" key="GridCell.Tab.2.right" timestamp="1686837997847">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="300" key="GridCell.Tab.2.right/0.0.1707.920@0.0.1707.920" timestamp="1686837997847" />
+    <state x="334" y="38" key="SettingsEditor" timestamp="1686837779449">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="334" y="38" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1686837779449" />
+    <state x="548" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1686839156889">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="548" y="288" key="com.intellij.ide.util.TipDialog/0.0.1707.920@0.0.1707.920" timestamp="1686839156889" />
+    <state x="510" y="211" key="run.anything.popup" timestamp="1686837682349">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="510" y="211" key="run.anything.popup/0.0.1707.920@0.0.1707.920" timestamp="1686837682349" />
+  </component>
+</project>
