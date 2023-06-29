@@ -20,15 +20,17 @@ import java.util.List;
 /**
  * @Author yaqi-zhou
  * @Description 购物车
+ *mapper接口 shoppingcartmapper,业务层实现类shoppingcartservicelmpl
  */
 @RestController
 @RequestMapping("/shoppingCart")
+/**实体类 shoppingcart,控制层shoppingcartcontroller*/
 public class ShoppingCartController {
     private static Logger logger = LoggerFactory.getLogger(ShoppingCartController.class);
 
     @Autowired
     private ShoppingCartService shoppingCartService;
-
+/**业务层接口shoppingcartservice*/
 
     /**
      * @Description 加入购物车
