@@ -35,9 +35,11 @@ public class ShoppingCartController {
      * @Author yaqi-zhou
      */
     @RequestMapping(method = RequestMethod.POST,value = "/add")
-*post请求方式提交，"/add"是接口路径
+/**post请求方式提交
+ *"/add"是接口路径
+ */
     public R<ShoppingCartAddRspDto> add(@RequestBody ShoppingCart shoppingCart) {
-*通过@RequestBody注解将前端传来的ShoppingCart对象转换为Java对象
+/**通过@RequestBody注解将前端传来的ShoppingCart对象转换为Java对象*/
         logger.info("加入购物车入参{}", JSONObject.toJSONString(shoppingCart));
 
         try {
@@ -52,19 +54,20 @@ public class ShoppingCartController {
             return R.error("加入购物车异常");
         }
     }
-*创建ShoppingCartAddReqDto对象,使用BeanUtils.copyProperties()方法将前端传来的ShoppingCart对象的属性值赋给它
+/**创建ShoppingCartAddReqDto对象,使用BeanUtils.copyProperties()方法将前端传来的ShoppingCart对象的属性值赋给它
 *设置ShoppingCart的userId属性为当前用户的id（调用BaseContext.getCurrentId()获取），调用shoppingCartService的add()方法，进行购物车操作
 *如果加入购物车操作成功，返回成功提示信息和ShoppingCartAddRspDto对象
 *如果加入购物车操作失败，返回失败提示信息
 *如果加入购物车操作异常，记录异常日志并返回错误信息
+*/
     /**
      * @Description 减少购物车数量
      * @Author yaqi-zhou
      */
     @RequestMapping(method = RequestMethod.POST,value = "/sub")
-*POST请求方式提交，接口路径为"/sub"
+/**POST请求方式提交，接口路径为"/sub"*/
     public R<ShoppingCartSubRspDto> sub(@RequestBody ShoppingCart shoppingCart) {
-*通过@RequestBody注解将前端传来的ShoppingCart对象转换为Java对象    
+/**通过@RequestBody注解将前端传来的ShoppingCart对象转换为Java对象*/    
        logger.info("减少购物车数量入参{}", JSONObject.toJSONString(shoppingCart));
 
         try {
@@ -79,17 +82,17 @@ public class ShoppingCartController {
             return R.error("减少购物车数量异常");
         }
     }
-*创建ShoppingCartSubReqDto对象，使用BeanUtils.copyProperties()方法将前端传来的ShoppingCart对象的属性值赋给它
+/**创建ShoppingCartSubReqDto对象，使用BeanUtils.copyProperties()方法将前端传来的ShoppingCart对象的属性值赋给它
 *设置ShoppingCart的userId属性为当前用户的id（调用BaseContext.getCurrentId()获取），调用shoppingCartService的sub()方法，进行购物车数量减少操作
 *如果购物车数量减少操作成功，返回成功提示信息和ShoppingCartSubRspDto对象
 *如果购物车数量减少操作失败，返回失败提示信息
-*如果购物车数量减少操作异常，记录异常日志并返回错误信息
+*如果购物车数量减少操作异常，记录异常日志并返回错误信息*/
     /**
      * @Description 查看购物车
      * @Author yaqi-zhou
      */
     @RequestMapping(method = RequestMethod.GET,value = "/list")
-*通过GET请求方式提交，接口路径为"/list"
+/**通过GET请求方式提交，接口路径为"/list"*/
     public R<List<ShoppingCartListRspDto>> list() {
 
         try {
@@ -102,17 +105,17 @@ public class ShoppingCartController {
             return R.error("查看购物车异常");
         }
     }
-*直接调用shoppingCartService的lists()方法，返回包含ShoppingCartListRspDto对象的列表
+/**直接调用shoppingCartService的lists()方法，返回包含ShoppingCartListRspDto对象的列表
 *如果查询成功，返回成功提示信息和ShoppingCartListRspDto对象
 *如果查询失败，返回失败提示信息
 *如果查询异常，记录异常日志并返回错误信息
-
+*/
     /**
      * @Description 清空购物车
      * @Author yaqi-zhou
      */
     @RequestMapping(method = RequestMethod.DELETE,value = "/clean")
-*通过DELETE请求方式提交，接口路径为"/clean"
+/**通过DELETE请求方式提交，接口路径为"/clean"*/
     public R<String> clean() {
 
         try {
@@ -126,7 +129,8 @@ public class ShoppingCartController {
         }
     }
 }
-*直接调用shoppingCartService的deletes()方法进行购物车清空操作
+/**直接调用shoppingCartService的deletes()方法进行购物车清空操作
 *如果清空操作成功，返回成功提示信息
 *如果清空操作失败，返回失败提示信息
 *如果清空操作异常，记录异常日志并返回错误信息
+*/
